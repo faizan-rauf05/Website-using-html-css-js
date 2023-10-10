@@ -1,0 +1,54 @@
+:root {
+    --primary-color: #f4813f;
+    --secondary-color: #7a7a7a;
+}
+
+/* Headings */
+
+h1 {
+    line-height: 80px;
+    font-size: 52px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    line-height: 30px;
+    color: #7a7a7a;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+li {
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.flex {
+    display: flex;
+}
+
+.overflow {
+    overflow: hidden;
+}

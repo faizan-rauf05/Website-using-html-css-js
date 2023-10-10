@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/media-query.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400,500,600,700,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <!--Font-Awesome-Icons-->
+    <script src="https://kit.fontawesome.com/1f85c6dfbe.js" crossorigin="anonymous"></script>
+    <!-- Animation-Library  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>App Store</title>
+</head>
+
+<body>
+
+    <!--*** Header ***-->
+
+    <header id="header">
+
+        <div id="logo">App Store</div>
+        <div id="nav-bar">
+            <ul>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#services-section">
+                    <li>About</li>
+                </a>
+                <a href="#">
+                    <li>Testimonial</li>
+                </a>
+                <div class="dropDown-parent">
+                    <a href="#">
+                        <li>Drop Down<i class="fa-solid fa-angle-down"></i></li>
+                        <div class="drop-down">
+                            <li>About Us</li>
+                            <li>Features</li>
+                            <li>FAQ'S</li>
+                            <li>Blog</li>
+                        </div>
+                    </a>
+                </div>
+                <a href="#">
+                    <li>Contact Us</li>
+                </a>
+            </ul>
+        </div>
+    </header>
+    <!--*** Header-End ***-->
+
+    <!--*** Hero-Section ***-->
+
+    <section id="hero-section" class="flex">
+        <div class="left-desc" data-aos="zoom-in">
+            <h1>
+                Simple App that we <span class="color-content">CREATE</span>
+            </h1>
+            <p>Lava HTML landing page template is provided by TemplateMo. You can modify and use it for your commercial
+                websites for free of charge. This template is last updated on 29 Oct 2019.</p>
+            <a class="hero-btn-1" href="#">KNOW US BETTER</a>
+        </div>
+        <div class="right-hero">
+            <img src="images/banner-bg.png" alt="banner-img">
+        </div>
+    </section>
+
+    <!--*** Hero-Section-End ***-->
+
+    <!-- Services-section  -->
+
+    <section id="services-section">
+
+        <div class="service-child service-1" data-aos="zoom-in">
+            <h2>01</h2>
+            <img src="images/features-icon-1.png" alt="">
+            <h4>Trend Analysis</h4>
+            <p>Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
+            <a class="hero-btn-1" href="#">Read More</a>
+        </div>
+
+        <div class="service-child service-1" data-aos="zoom-in">
+            <h2>02</h2>
+            <img src="images/features-icon-2.png" alt="">
+            <h4>Site Optimization</h4>
+            <p>Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
+            <a class="hero-btn-1" href="#">Read More</a>
+        </div>
+
+        <div class="service-child service-1" data-aos="zoom-in">
+            <h2>03</h2>
+            <img src="images/features-icon-3.png" alt="">
+            <h4>Email Design</h4>
+            <p>Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
+            <a class="hero-btn-1" href="#">Read More</a>
+        </div>
+
+    </section>
+
+    <!-- Next-section  -->
+
+    <section id="mobile-section">
+        <div class="left-section" data-aos="slide-right">
+            <div class="left-mobile">
+                <img src="images/left-image.png" alt="">
+            </div>
+        </div>
+
+        <!-- Right-mobile  -->
+        <div class="right-section" data-aos="slide-left">
+
+            <div class="right-mobile">
+                <img src="images/about-icon-01.png" alt="">
+                <div class="about-desc">
+                    <h4>Vestibulum pulvinar rhoncus</h4>
+                    <p>Please do not redistribute this template ZIP file for a download purpose. You may contact us for
+                        additional licensing of our template or to get a PSD file.</p>
+                </div>
+            </div>
+
+            <div class="right-mobile">
+                <img src="images/about-icon-01.png" alt="">
+                <div class="about-desc">
+                    <h4>Sed blandit quam in velit</h4>
+                    <p>You can download Lava Template from our website. Duis viverra, ipsum et scelerisque placerat,
+                        orci magna consequat ligula.</p>
+                </div>
+            </div>
+
+            <div class="right-mobile">
+                <img src="images/about-icon-01.png" alt="">
+                <div class="about-desc">
+                    <h4>Aenean faucibus venenatis</h4>
+                    <p>Please do not redistribute this template ZIP file for a download purpose. You may contact us for
+                        additional licensing of our template or to get a PSD file.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Next-section-End  -->
+
+    <!-- Slider-Section-Start  -->
+
+    <section id="slider-section" class="overflow">
+
+        <div class="text-sec">
+            <h2>What They Think <span>About Us</span></h2>
+            <p>Suspendisse vitae laoreet mauris. Fusce a nisi dapibus, euismod purus non, convallis odio. Donec vitae
+                magna ornare, pellentesque ex vitae, aliquet urna.</p>
+        </div>
+
+        <div class="slider-btn">
+            <div class="slider-arrow-left s-btn" onclick="move_left()">
+                <i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i>
+            </div>
+
+            <div class="slider-arrow-right s-btn" onclick="move_right()">
+                <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+            </div>
+        </div>
+        <!-- <img class="c-image" src="images/right-bg-decor.png" alt=""> -->
+        <div class="emp-slider-section" data-aos="fade-left">
+
+            <div class="emp-slider-1 emp-slider flex" id="emp-slide">
+                <img src="images/testimonial-author-1.png" alt="">
+                <div class="star-icon">
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                </div>
+                <h4>Jonathan Smart</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos mollitia quasi animi minus nobis
+                    blanditiis numquam temporibus amet laboriosam! Facilis.</p>
+                <p>BEST CTO</p>
+            </div>
+
+            <div class="emp-slider-2 emp-slider flex" id="emp-slide">
+                <img src="images/testimonial-author-1.png" alt="">
+                <div class="star-icon">
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                </div>
+                <h4>Jonathan Smart</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos mollitia quasi animi minus nobis
+                    blanditiis numquam temporibus amet laboriosam! Facilis.</p>
+                <p>BEST CTO</p>
+            </div>
+
+            <div class="emp-slider-3 emp-slider flex" id="emp-slide">
+                <img src="images/testimonial-author-1.png" alt="">
+                <div class="star-icon">
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                </div>
+                <h4>Jonathan Smart</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos mollitia quasi animi minus nobis
+                    blanditiis numquam temporibus amet laboriosam! Facilis.</p>
+                <p>BEST CTO</p>
+            </div>
+
+            <div class="emp-slider-4 emp-slider flex" id="emp-slide">
+                <img src="images/testimonial-author-1.png" alt="">
+                <div class="star-icon">
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                </div>
+                <h4>Jonathan Smart</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos mollitia quasi animi minus nobis
+                    blanditiis numquam temporibus amet laboriosam! Facilis.</p>
+                <p>BEST CTO</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Slider-Section-End  -->
+
+
+    <!-- Footer-section  -->
+    <section id="footer-section">
+
+        <div class="fot-form">
+            <form action="">
+                <input type="text" placeholder="Full Name">
+                <input type="text" placeholder="E - Mail Address">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            </form>
+            <a class="hero-btn-1" href="#">SEND MESSAGE NOW</a>
+        </div>
+
+        <div class="fot-desc">
+            <h2>More About <span> Lava </span></h2>
+            <p>Phasellus dapibus urna vel lacus accumsan, iaculis eleifend leo auctor. Duis at finibus odio. Vivamus ut
+                pharetra arcu, in porta metus. Suspendisse blandit pulvinar ligula ut elementum.<br><br>
+
+                If you need this contact form to send email to your inbox, you may follow our contact page for more
+                detail.</p>
+
+            <div class="social-media">
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+                <a href=""><i class="fa fa-rss"></i></a>
+                <a href=""><i class="fa fa-dribbble"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="copy-sec">
+        <div class="copy">Copyright © 2020 Lava Landing Page | Designed by TemplateMo</div>
+    </section>
+
+
+
+
+    <!-- script  -->
+    <script src="js/script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 230,
+            duration: 1000,
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>
